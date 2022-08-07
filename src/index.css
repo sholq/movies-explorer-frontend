@@ -11,8 +11,51 @@
     background: #000;
 }
 
-.header
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
-.header__logo
+.header {
+    border: red solid 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 18px 70px;
+    background-color: #073042;
+}
 
-header__
+.header__logo {
+    height: 38px;
+    width: 38px;
+
+}
+
+.header__wrap {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 72px);
+    column-gap: 30px;
+}
+
+.header__link {
+    width: 72px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*.header__link_sign_up*/
+
+.header__link_sign_in {
+    background-color: #3DDC84;
+    color: #000;
+}

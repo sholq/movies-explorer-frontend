@@ -5,10 +5,10 @@ import Header from "../Header/Header";
 
 function Main() {
   return (
-    <>
+    <div className="page">
       <Header />
       <Promo />
-    </>
+    </div>
   );
 }
 

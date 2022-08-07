@@ -7,9 +7,9 @@ function Header() {
   return (
     <header className="header">
       <img className="header__logo" src={logoPath} alt="Логотип" />
-      <div>
-        <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
+      <div className="header__wrap">
         <Link className="header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
+        <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
       </div>
     </header>
   );
