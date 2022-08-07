@@ -1,2 +1,12 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/inter.css);
+
+.App {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    background: #000;
+}
