@@ -62,7 +62,6 @@
 }
 
 .promo {
-    border: red solid 1px;
     width: 100%;
     min-height: 524px;
     display: flex;
@@ -81,4 +80,43 @@
     font-size: 50px;
     line-height: 58px;
     font-weight: 400;
+}
+
+.navtab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #272727;
+}
+
+.navtab__container {
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.navtab__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(53px, max-content));
+    column-gap: 40px;
+    justify-content: center;
+    list-style: none;
+}
+
+.navtab__item {
+    width: 100%;
+    margin: 0;
+    padding: 24px 0;
+}
+
+.navtab__link {
+    display: block;
+    width: max-content;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #fff;
 }

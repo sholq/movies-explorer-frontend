@@ -1,14 +1,13 @@
 // import './Main.css';
 
+import NavTab from "../NavTab/NavTab";
 import Promo from "../Promo/Promo";
 
 function Main() {
   return (
     <>
       <Promo />
-      <div className="main__container">
-        
-      </div>
+      <NavTab />
     </>
   );
 }
