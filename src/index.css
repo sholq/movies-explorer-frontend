@@ -11,19 +11,19 @@
     background: #000;
 }
 
-.page {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 .header {
     width: 100%;
+    background-color: #073042;
+}
+
+.header__container {
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 18px 70px;
-    background-color: #073042;
 }
 
 .header__logo {
