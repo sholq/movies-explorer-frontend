@@ -32,20 +32,29 @@
 
 }
 
-.header__wrap {
+.header__links {
+    width: 100%;
     margin: 0;
+    padding: 0;
     display: grid;
-    grid-template-columns: repeat(2, 72px);
-    column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(72px, max-content));
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.header__item {
+    width: 100%;
+    margin: 0;
 }
 
 .header__link {
-    width: 72px;
-    height: 100%;
+    display: block;
+    width: 100%;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 8px 20px;
+    box-sizing: border-box;
     border-radius: 3px;
     font-size: 12px;
     line-height: 14px;

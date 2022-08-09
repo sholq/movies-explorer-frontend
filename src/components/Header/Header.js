@@ -8,10 +8,14 @@ function Header() {
     <header className="header">
       <div className="header__container">
         <img className="header__logo" src={logoPath} alt="Логотип" />
-        <div className="header__wrap">
-          <Link className="header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
-          <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
-        </div>
+        <ul className="header__links">
+          <li className="header__item">
+            <Link className="header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
+          </li>
+          <li className="header__item">
+            <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
+          </li>
+        </ul>
       </div>
     </header>
   );
