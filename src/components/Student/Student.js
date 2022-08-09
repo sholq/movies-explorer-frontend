@@ -14,10 +14,10 @@ function Student() {
                     <p className="student__description">Я родился и живу в Саратове, закончил факультет экономики СГУ. У меня есть жена и дочь. Я люблю слушать музыку, а ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года работал в компании «СКБ Контур». После того, как прошёл курс по веб-разработке, начал заниматься фриланс-заказами и ушёл с постоянной работы.</p>
                     <ul className="student__socials">
                         <li className="student__item">
-                            <Link className="student__social" to="https://facebook.com">Facebook</Link>
+                            <a className="student__social" href="https://facebook.com" target="_blank">Facebook</a>
                         </li>
                         <li className="student__item">
-                            <Link className="student__social" to="https://github.com">GitHub</Link>
+                            <a className="student__social" href="https://github.com" target="_blank">GitHub</a>
                         </li>
                     </ul>
                 </div>

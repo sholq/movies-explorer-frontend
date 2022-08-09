@@ -8,13 +8,13 @@ function NavTab() {
         <div className="navtab__container">
             <ul className="navtab__list">
                 <li className="navtab__item">
-                    <Link className="navtab__link" to="#about">О проекте</Link>
+                    <a className="navtab__link" href="#about">О проекте</a>
                 </li>
                 <li className="navtab__item">
-                    <Link className="navtab__link" to="#techs">Технологии</Link>
+                    <a className="navtab__link" href="#techs">Технологии</a>
                 </li>
                 <li className="navtab__item">
-                    <Link className="navtab__link" to="#student">Студент</Link>
+                    <a className="navtab__link" href="#student">Студент</a>
                 </li>
             </ul>
         </div>

@@ -7,19 +7,19 @@ function Portfolio() {
             <h3 className="portfolio__subheader">Портфолио</h3>
             <ul className="portfolio__works">
                 <li className="portfolio__item">
-                    <Link className="portfolio__work" to="https://facebook.com">
+                    <a className="portfolio__work" href="https://facebook.com" target="_blank">
                         Статичный сайт<span>↗</span>
-                    </Link>
+                    </a>
                 </li>
                 <li className="portfolio__item">
-                    <Link className="portfolio__work" to="https://facebook.com">
+                    <a className="portfolio__work" href="https://facebook.com" target="_blank">
                         Адаптивный сайт<span>↗</span>
-                    </Link>
+                    </a>
                 </li>
                 <li className="portfolio__item">
-                    <Link className="portfolio__work" to="https://facebook.com">
+                    <a className="portfolio__work" href="https://facebook.com" target="_blank">
                         Одностраничное приложение<span>↗</span>
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </div>
