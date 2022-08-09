@@ -152,6 +152,11 @@
     border-bottom: 1px solid #DADADA;
 }
 
+.about {
+    width: 100%;
+    background-color: #202020;
+}
+
 .about__list {
     width: 100%;
     margin: 0;
