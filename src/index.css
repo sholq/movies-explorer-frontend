@@ -279,3 +279,130 @@
     line-height: 17px;
     font-weight: 400;
 }
+
+.student {
+    width: 100%;
+    background-color: #202020;
+}
+
+.student__wrap {
+    width: 100%;
+    margin: 0;
+    padding: 66px 0 30px;
+    display: grid;
+    grid-template-columns: auto 270px;
+}
+
+.student__profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.student__photo {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.student__name {
+    margin: 0;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+.student__capture {
+    margin: 18px 0 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.student__description {
+    max-width: 600px;
+    margin: 26px 0 100px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.student__socials {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45px, max-content));
+    column-gap: 20px;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.student__item {
+    width: 100%;
+    margin: 0;
+}
+
+.student__social {
+    display: block;
+    margin: 0;
+    width: max-content;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: #202020;
+}
+
+.section__container_type_portfolio {
+    width: 100%;
+    background-color: #202020;
+    padding: 0 0 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.portfolio__subheader {
+    margin: 0 0 50px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+
+.portfolio__works {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    list-style: none;
+}
+
+.portfolio__item {
+    width: 100%;
+    margin: 0;
+}
+
+.portfolio__work {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 19px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #424242;
+}
