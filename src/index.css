@@ -88,7 +88,7 @@
 }
 
 .navtab__container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     display: grid;
 }
@@ -264,7 +264,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 90px));
-    column-gap: 10px;
+    gap: 10px;
     justify-content: center;
     list-style: none;
 }
