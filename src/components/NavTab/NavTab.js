@@ -11,7 +11,7 @@ function NavTab() {
                     <Link className="navtab__link" to="#about">О проекте</Link>
                 </li>
                 <li className="navtab__item">
-                    <Link className="navtab__link" to="#tech">Технологии</Link>
+                    <Link className="navtab__link" to="#techs">Технологии</Link>
                 </li>
                 <li className="navtab__item">
                     <Link className="navtab__link" to="#student">Студент</Link>
