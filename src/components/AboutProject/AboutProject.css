@@ -7,7 +7,7 @@
     box-sizing: border-box;
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
 }
 
 .about__item {
@@ -78,4 +78,19 @@
     line-height: 17px;
     font-weight: 400;
     color: #8B8B8B;
+}
+
+@media screen and (max-width: 320px) {
+    .about__duration {
+        padding: 11px 0;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .about__title {
+        padding: 10px 0 0;
+        font-size: 11px;
+        line-height: 13px;
+        font-weight: 400;
+    }
 }

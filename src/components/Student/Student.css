@@ -6,6 +6,7 @@
     width: 100%;
     margin: 0;
     padding: 66px 0 30px;
+    gap: 49px;
     display: grid;
     grid-template-columns: auto 270px;
 }
@@ -62,4 +63,27 @@
     font-weight: 500;
     text-decoration: none;
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .student__wrap {
+        grid-template-columns: auto 255px;
+    }
+
+    .student__name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .student__capture {
+        margin: 16px 0 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .student__description {
+        margin: 20px 0 87px;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
