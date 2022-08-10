@@ -8,10 +8,10 @@ function Header() {
         <img className="header__logo" src={logoPath} alt="Логотип" />
         <ul className="header__links">
           <li>
-            <Link className="header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
+            <Link className="button header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
           </li>
           <li>
-            <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
+            <Link className="button header__link header__link_sign_in" to="/sign-in">Войти</Link>
           </li>
         </ul>
       </div>

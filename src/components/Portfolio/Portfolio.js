@@ -21,7 +21,7 @@ function Portfolio() {
             <ul className="list portfolio__works">
                 {works.map((work, index) => (
                     <li key={index}>
-                        <a className="portfolio__work" href={work.reference} target="_blank">
+                        <a className="link portfolio__work" href={work.reference} target="_blank">
                             {work.title}<span>↗</span>
                         </a>
                     </li>

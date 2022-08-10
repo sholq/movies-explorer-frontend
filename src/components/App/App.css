@@ -47,3 +47,19 @@
     padding: 0;
     list-style: none;
 }
+
+.button {
+    transition: opacity 0.3s ease-in;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.link {
+    transition: opacity 0.3s ease-in;
+}
+
+.link:hover {
+    opacity: 0.7;
+}

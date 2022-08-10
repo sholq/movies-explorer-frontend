@@ -23,7 +23,7 @@ function Footer() {
             <ul className="list footer__links">
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a className="footer__link" href={link.reference} target="_blank">{link.title}</a>
+                        <a className="link footer__link" href={link.reference} target="_blank">{link.title}</a>
                     </li>
                 ))}
             </ul>

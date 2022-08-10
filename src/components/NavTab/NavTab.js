@@ -20,7 +20,7 @@ function NavTab() {
             <ul className="list navtab__list">
                 {links.map((link, index) => (
                     <li key={index}>
-                        <a className="navtab__link" href={link.reference}>{link.title}</a>
+                        <a className="link navtab__link" href={link.reference}>{link.title}</a>
                     </li>
                 ))}
             </ul>

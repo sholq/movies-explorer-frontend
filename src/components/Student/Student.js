@@ -24,7 +24,7 @@ function Student() {
                     <ul className="list student__socials">
                         {socials.map((social, index) => (
                             <li key={index}>
-                                <a className="student__social" href={social.reference} target="_blank">{social.title}</a>
+                                <a className="link student__social" href={social.reference} target="_blank">{social.title}</a>
                             </li>
                         ))}
                     </ul>
