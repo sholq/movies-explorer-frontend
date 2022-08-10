@@ -1,21 +1,30 @@
 // import './NavTab.css';
 
-import { Link } from "react-router-dom";
-
 function NavTab() {
+    const links = [
+        {
+            title: "О проекте",
+            reference: "#about"
+        },
+        {
+            title: "Технологии",
+            reference: "#techs"
+        },
+        {
+            title: "Студент",
+            reference: "#student"
+        },
+    ];
+
     return (
       <nav className="navtab">
         <div className="section__container section__container_type_navtab">
             <ul className="navtab__list">
-                <li className="navtab__item">
-                    <a className="navtab__link" href="#about">О проекте</a>
-                </li>
-                <li className="navtab__item">
-                    <a className="navtab__link" href="#techs">Технологии</a>
-                </li>
-                <li className="navtab__item">
-                    <a className="navtab__link" href="#student">Студент</a>
-                </li>
+                {links.map((link, index) => (
+                    <li className="navtab__item" key={index}>
+                        <a className="navtab__link" href={link.reference}>{link.title}</a>
+                    </li>
+                ))}
             </ul>
         </div>
       </nav>

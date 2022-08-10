@@ -1,6 +1,21 @@
 import {Link} from "react-router-dom";
 
 function Footer() {
+    const links = [
+        {
+            title: "Яндекс.Практикум",
+            reference: "https://practicum.yandex.ru"
+        },
+        {
+            title: "GitHub",
+            reference: "https://github.com"
+        },
+        {
+            title: "Facebook",
+            reference: "https://facebook.com"
+        },
+    ];
+
   return (
     <header className="footer">
       <div className="footer__container">
@@ -8,15 +23,11 @@ function Footer() {
         <div className="footer__wrap">
             <span className="footer__copyright">© 2022</span>
             <ul className="footer__links">
-                <li className="footer__item">
-                    <a className="footer__link" href="https://practicum.yandex.ru" target="_blank">Яндекс.Практикум</a>
-                </li>
-                <li className="footer__item">
-                    <a className="footer__link" href="https://github.ru" target="_blank">GitHub</a>
-                </li>
-                <li className="footer__item">
-                    <a className="footer__link" href="https://facebook.ru" target="_blank">Facebook</a>
-                </li>
+                {links.map((link, index) => (
+                    <li className="footer__item" key={index}>
+                        <a className="footer__link" href={link.reference} target="_blank">{link.title}</a>
+                    </li>
+                ))}
             </ul>
         </div>
       </div>
