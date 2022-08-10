@@ -1,5 +1,3 @@
-// import './Promo.css';
-
 function Promo() {
   return (
     <section className="promo">

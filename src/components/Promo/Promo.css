@@ -1,0 +1,20 @@
+.promo {
+    width: 100%;
+    min-height: 524px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #073042;
+    background-image: url("../../images/promo-logo.svg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.promo__header {
+    margin: 0;
+    max-width: 730px;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 400;
+}

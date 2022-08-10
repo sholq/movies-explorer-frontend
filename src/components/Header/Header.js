@@ -1,5 +1,3 @@
-// import './Header.css';
-
 import logoPath from "../../images/logo.svg";
 import {Link} from "react-router-dom";
 

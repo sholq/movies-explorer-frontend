@@ -1,1 +1,49 @@
+.App {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    background: #000;
+}
 
+.section-header {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 23px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    border-bottom: 1px solid #DADADA;
+}
+
+.section__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 110px 70px;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.section__container_type_navtab {
+    padding: 24px 0;
+    display: grid;
+}
+
+.section__container_type_portfolio {
+    width: 100%;
+    background-color: #202020;
+    padding-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

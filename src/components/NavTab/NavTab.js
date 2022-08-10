@@ -1,5 +1,3 @@
-// import './NavTab.css';
-
 function NavTab() {
     const links = [
         {

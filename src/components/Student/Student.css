@@ -1,0 +1,65 @@
+.student {
+    background-color: #202020;
+}
+
+.student__wrap {
+    width: 100%;
+    margin: 0;
+    padding: 66px 0 30px;
+    display: grid;
+    grid-template-columns: auto 270px;
+}
+
+.student__profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.student__photo {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.student__name {
+    margin: 0;
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 400;
+}
+
+.student__capture {
+    margin: 18px 0 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.student__description {
+    max-width: 600px;
+    margin: 26px 0 100px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.student__socials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45px, max-content));
+    column-gap: 20px;
+    justify-content: flex-start;
+}
+
+.student__social {
+    display: block;
+    margin: 0;
+    width: max-content;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}

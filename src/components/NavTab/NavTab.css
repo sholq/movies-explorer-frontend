@@ -1,0 +1,20 @@
+.navtab {
+    background-color: #272727;
+}
+
+.navtab__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(53px, max-content));
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.navtab__link {
+    display: block;
+    width: max-content;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #fff;
+}

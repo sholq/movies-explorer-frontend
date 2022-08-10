@@ -1,0 +1,31 @@
+.portfolio {
+    background-color: #202020;
+}
+
+.portfolio__subheader {
+    margin: 0 0 50px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+
+.portfolio__works {
+    display: grid;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+}
+
+.portfolio__work {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 19px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #424242;
+}
