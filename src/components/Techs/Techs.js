@@ -11,7 +11,7 @@ function Techs() {
                 <h3 className="techs__title">7 технологий</h3>
                 <p className="techs__description">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>
             </div>
-            <ul className="techs__list">
+            <ul className="list techs__list">
                 {technologies.map((tech, index) => (
                     <li className="techs__item" key={index}>{tech}</li>
                 ))}

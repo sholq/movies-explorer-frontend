@@ -19,9 +19,9 @@ function NavTab() {
     return (
       <nav className="navtab">
         <div className="section__container section__container_type_navtab">
-            <ul className="navtab__list">
+            <ul className="list navtab__list">
                 {links.map((link, index) => (
-                    <li className="navtab__item" key={index}>
+                    <li key={index}>
                         <a className="navtab__link" href={link.reference}>{link.title}</a>
                     </li>
                 ))}

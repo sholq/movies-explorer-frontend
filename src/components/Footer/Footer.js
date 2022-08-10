@@ -22,9 +22,9 @@ function Footer() {
         <h2 className="footer__title">Учебный проект Яндекс.Практикум х BeatFilm.</h2>
         <div className="footer__wrap">
             <span className="footer__copyright">© 2022</span>
-            <ul className="footer__links">
+            <ul className="list footer__links">
                 {links.map((link, index) => (
-                    <li className="footer__item" key={index}>
+                    <li key={index}>
                         <a className="footer__link" href={link.reference} target="_blank">{link.title}</a>
                     </li>
                 ))}

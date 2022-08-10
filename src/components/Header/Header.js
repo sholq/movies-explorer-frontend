@@ -9,10 +9,10 @@ function Header() {
       <div className="header__container">
         <img className="header__logo" src={logoPath} alt="Логотип" />
         <ul className="header__links">
-          <li className="header__item">
+          <li>
             <Link className="header__link header__link_sign_up" to="/sign-up">Регистрация</Link>
           </li>
-          <li className="header__item">
+          <li>
             <Link className="header__link header__link_sign_in" to="/sign-in">Войти</Link>
           </li>
         </ul>
