@@ -34,9 +34,8 @@
 
 .section__container_type_portfolio {
     width: 100%;
-    padding: 0 70px 110px;
+    padding: 0 70px 125px;
     background-color: #202020;
-    padding-bottom: 125px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -68,5 +67,25 @@
 @media screen and (max-width: 768px) {
     .section__container {
         padding: 0 50px 90px;
+    }
+
+    .section__container_type_portfolio {
+        padding: 0 50px 125px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section__container {
+        padding: 0 14px 70px;
+    }
+
+    .section__container_type_portfolio {
+        padding: 0 14px 70px;
+    }
+
+    .section-header {
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 28px;
     }
 }

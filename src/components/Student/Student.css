@@ -87,3 +87,28 @@
         line-height: 18px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .student__wrap {
+        padding: 67px 0 0;
+        grid-template-columns: auto 255px;
+        gap: 49px;
+    }
+
+    .student__name {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .student__capture {
+        margin: 20px 0 0;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .student__description {
+        margin: 20px 0 40px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
