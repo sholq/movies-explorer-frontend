@@ -89,7 +89,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 675px) {
     .student__wrap {
         padding: 60px 0 0;
         grid-template-columns: auto;

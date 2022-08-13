@@ -30,7 +30,7 @@
 
 .techs__list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(90px, max-content));
+    grid-template-columns: repeat(auto-fit, 90px);
     gap: 10px;
     justify-content: center;
 }
@@ -45,9 +45,9 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
     .techs__list {
-        grid-template-columns: repeat(auto-fit, minmax(84px, max-content));
+        grid-template-columns: repeat(auto-fit, 84px);
     }
 
     .techs__wrap {
