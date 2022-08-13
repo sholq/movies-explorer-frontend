@@ -1,6 +1,10 @@
+import SearchForm from "../SearchForm/SearchForm";
+
 function Movies() {
   return (
-    <main className="main"></main>
+    <main className="main">
+      <SearchForm />
+    </main>
   );
 }
 
