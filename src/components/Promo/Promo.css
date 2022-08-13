@@ -1,12 +1,13 @@
 .promo {
     width: 100%;
-    min-height: 524px;
+    padding: 74px 0 114px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #073042;
     background-image: url("../../images/promo-logo.svg");
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 80px;
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -17,4 +18,5 @@
     font-size: 50px;
     line-height: 58px;
     font-weight: 400;
+    letter-spacing: -0.04em;
 }

@@ -30,9 +30,10 @@
     font-size: 50px;
     line-height: 58px;
     font-weight: 400;
+    letter-spacing: -0.04em;
 }
 
-.student__capture {
+.student__caption {
     margin: 18px 0 0;
     font-size: 18px;
     line-height: 20px;

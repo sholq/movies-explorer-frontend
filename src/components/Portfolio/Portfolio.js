@@ -22,15 +22,15 @@ function Portfolio() {
                 {works.map((work, index) => (
                     <li key={index}>
                         <a className="link portfolio__work" href={work.reference} target="_blank">
-                            {work.title}<span>↗</span>
+                            {work.title}<span className="portfolio__icon">↗</span>
                         </a>
                     </li>
                 ))}
-                
+
             </ul>
         </div>
     </section>
     );
   }
-  
+
   export default Portfolio;

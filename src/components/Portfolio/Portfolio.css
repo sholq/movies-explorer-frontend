@@ -3,7 +3,7 @@
 }
 
 .portfolio__subheader {
-    margin: 0 0 50px;
+    margin: 0 0 30px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
@@ -19,15 +19,22 @@
 .portfolio__work {
     width: 100%;
     margin: 0;
-    padding: 0 0 19px;
+    padding: 20px 0 19px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 30px;
     line-height: 50px;
     font-weight: 400;
+    letter-spacing: -0.04em;
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid #424242;
+}
+
+.portfolio__icon {
+    padding: 10px 0 0;
+    line-height: 1;
 }
 
 @media screen and (max-width: 768px) {

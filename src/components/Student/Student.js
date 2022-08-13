@@ -3,7 +3,7 @@ import photoPath from "../../images/vitaliy.png";
 function Student() {
     const socials = [
         {
-            title: "facebook",
+            title: "Facebook",
             reference: "https://facebook.com"
         },
         {
@@ -14,8 +14,8 @@ function Student() {
 
     return (
     <section className="student" id="student">
-        <div className="section__container">
-            <h2 className="section-header">О проекте</h2>
+        <div className="section__container section__container_type_student">
+            <h2 className="section-header">Студент</h2>
             <div className="student__wrap">
                 <div className="student__profile">
                     <h3 className="student__name">Виталий</h3>
@@ -35,5 +35,5 @@ function Student() {
     </section>
     );
   }
-  
+
   export default Student;
