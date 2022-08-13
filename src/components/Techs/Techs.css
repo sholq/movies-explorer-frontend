@@ -82,6 +82,11 @@
         line-height: 16px;
     }
 
+    .techs__list {
+        max-width: 178px;
+        margin: 0 auto;
+    }
+
     .techs__item {
         font-size: 12px;
         line-height: 14px;

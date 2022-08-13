@@ -30,7 +30,6 @@
 
 .section__container_type_navtab {
     padding: 24px 0;
-    display: grid;
 }
 
 .section__container_type_student {
@@ -94,7 +93,15 @@
 
 @media screen and (max-width: 320px) {
     .section__container {
-        padding: 0 14px 70px;
+        padding: 71px 18px 70px;
+    }
+
+    .section__container_type_navtab {
+        padding: 24px 0;
+    }
+
+    .section__container_type_student {
+        padding: 68px 14px 70px;
     }
 
     .section__container_type_portfolio {
