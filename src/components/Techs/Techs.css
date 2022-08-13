@@ -46,6 +46,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .techs__list {
+        grid-template-columns: repeat(auto-fit, minmax(84px, max-content));
+    }
+
     .techs__wrap {
         padding: 80px 0 83px;
     }
@@ -54,6 +58,11 @@
         margin: 22px 0 0;
         font-size: 12px;
         line-height: 18px;
+    }
+
+    .techs__item {
+        font-size: 12px;
+        line-height: 14px;
     }
 }
 

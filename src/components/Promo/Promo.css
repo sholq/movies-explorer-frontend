@@ -6,8 +6,7 @@
     align-items: center;
     background-color: #073042;
     background-image: url("../../images/promo-logo.svg");
-    background-position-x: center;
-    background-position-y: 80px;
+    background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -20,3 +19,11 @@
     font-weight: 400;
     letter-spacing: -0.04em;
 }
+
+@media screen and (max-width: 768px) {
+    .promo {
+        padding: 236px 0 252px;
+    }
+}
+
+

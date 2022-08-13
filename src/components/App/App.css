@@ -76,11 +76,19 @@
 
 @media screen and (max-width: 768px) {
     .section__container {
-        padding: 0 50px 90px;
+        padding: 91px 50px 90px;
+    }
+
+    .section__container_type_navtab {
+        padding: 24px 0;
+    }
+
+    .section__container_type_student {
+        padding-bottom: 60px;
     }
 
     .section__container_type_portfolio {
-        padding: 0 50px 125px;
+        padding: 0 50px 90px;
     }
 }
 
