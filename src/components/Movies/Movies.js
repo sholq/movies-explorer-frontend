@@ -1,5 +1,6 @@
 import SearchForm from "../SearchForm/SearchForm";
 import Preloader from "../Preloader/Preloader";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
 
 function Movies(props) {
   const {isLoading} = props;
@@ -7,7 +8,7 @@ function Movies(props) {
   return (
     <main className="main">
       <SearchForm />
-      {isLoading ? <Preloader/> : <div/>}
+      {isLoading ? <Preloader/> : <MoviesCardList />}
     </main>
   );
 }

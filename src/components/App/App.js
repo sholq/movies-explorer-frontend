@@ -5,17 +5,16 @@ import Main from "../Main/Main";
 import Movies from "../Movies/Movies";
 import Footer from '../Footer/Footer';
 import {useState} from "react";
-import Preloader from "../Preloader/Preloader";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   return (
     <div className="App">
       <Header />
       <Routes>
         <Route path="/movies" element={
-          <Movies isLoading={isLoading}/>
+          <Movies isLoading={isLoading} />
         }/>
         <Route path="/" element={
           <Main />

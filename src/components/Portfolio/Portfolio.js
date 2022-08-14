@@ -26,7 +26,6 @@ function Portfolio() {
                         </a>
                     </li>
                 ))}
-
             </ul>
         </div>
     </section>
